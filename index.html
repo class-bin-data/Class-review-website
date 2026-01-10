@@ -787,16 +787,15 @@
 
 
 <script>
- (async function() {
-  try {
-    const response = await fetch('./footer.html');
-    if (!response.ok) throw new Error('加载失败');
-    const html = await response.text();
-    document.getElementById('footer-container').innerHTML = html;
-  } catch (error) {
-    console.error('页脚加载失败:', error);
-  }
-})();
+// 使用 fetch 加载 footer.html
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('加载页脚失败:', error);
+    });
 </script>
   <!-- 
    - custom js link
