@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta target="_blank">
-    <link rel="shortcut icon" href="./images/2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/index_background.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/personal-info-main.css">
     <link rel="stylesheet" href="../CSS/personal-info-animate.css">
@@ -23,25 +23,76 @@
 <body>
     
     <div class="fakeLoader"></div>
-        
+
     <div class="profile-page">
-        <section class="section hero has-bg-image" aria-labelledby="hero-label"
-        style="background-image: url('./assets/images/hero-bg.png')">
-        <div class="container">
 
-          <div class="hero-content">
+        <div class="page-header">
 
-            <h1 class="headline-lg" id="hero-label">
-              您好，我是 <span class="span">姓名</span> 欢迎遇见你
-            </h1>
 
-            <p class="title-md has-before">
-              襄阳五中附中2023级5班班级纪念网站
+            <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+                <div class="container-fluid container">
+                    <a class="navbar-brand log" href="#HI"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#about">基本资料</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skill">专业技能</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#project">作品展示</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#work">工作经历</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#others">其他经历</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">联系方式</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-            <div class="btn-group">
-              <a href="#about" class="btn btn-primary">了解我</a>
+            <a href="#about" class="go" title="Read More">
+                <svg t="1628741268385" class="j-icon" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="5238" width="32" height="32">
+                    <path
+                        d="M780.190476 498.070349c0 4.534857-2.21054 9.638603-5.461333 13.003175l-255.024762 263.476825c-3.299556 3.397079-8.208254 5.640127-12.580571 5.640127-4.388571 0-9.313524-2.275556-12.580572-5.640127l-255.024762-263.476825a19.732317 19.732317 0 0 1-5.461333-13.003175c0-4.518603 2.21054-9.622349 5.461333-12.98692l27.355429-28.265651c3.299556-3.397079 7.671873-5.640127 12.580571-5.640127 4.388571 0 9.313524 2.275556 12.564318 5.640127L507.12381 679.042032l215.105015-222.224254c3.283302-3.397079 8.192-5.640127 12.564318-5.640127 4.388571 0 9.313524 2.275556 12.580571 5.640127l27.355429 28.281905c3.283302 3.380825 5.461333 8.452063 5.461333 12.970666z m0-217.120508c0 4.534857-2.21054 9.638603-5.461333 13.003175l-255.024762 263.476825c-3.299556 3.397079-8.208254 5.640127-12.580571 5.640127-4.388571 0-9.313524-2.275556-12.580572-5.640127l-255.024762-263.476825a19.732317 19.732317 0 0 1-5.461333-13.003175c0-4.518603 2.21054-9.622349 5.461333-12.98692l27.355429-28.265651c3.299556-3.397079 7.671873-5.640127 12.580571-5.640127 4.388571 0 9.313524 2.275556 12.564318 5.640127L507.12381 461.937778l215.105015-222.224254c3.283302-3.397079 8.192-5.640127 12.564318-5.640127 4.388571 0 9.313524 2.275556 12.580571 5.640127l27.355429 28.281905c3.283302 3.380825 5.461333 8.452063 5.461333 12.970666z"
+                        p-id="5239" fill="#1296db"></path>
+                </svg>
+            </a>
+            <div class="page-header-mask"></div>
+            <div class="page-header-particles" id="particles-js"></div>
 
-              <a href="../index.html" class="btn btn-secondary">返回同学录</a>
+
+            <div class="container" id="HI"> 
+                <div class="col-sm-12  .col-xs-12">
+                    <div class="left-content">
+                        <div class="row-no-use" style="height: 40px;"></div>
+                        <div class="personalImage">
+                            <a href="javascript:void(0)">
+                                <img class="myphoto" src="" alt="个人图片">
+                            </a>
+                        </div>
+
+                        <div class="name-container">
+                            <h2 class="name"><br></h2>
+                        </div>
+
+                        <div class="motto-container">
+                            <p class="motto"></p>
+                        </div>
+
+                        <div class="intro-container bb">
+                            <span class="info self-intro ">
+                                青青子衿，悠悠我心<br>
+                                但为君故，沉吟至今<br>
+                                相遇即是缘分<br>
+                                很高兴见到你!
+                            </span>
+                        </div>
+
+                        <div id="myButtons2" class="bs-example">
+                            <a href="#contact" class="hvr-bounce-to-right animate__backInRight">联系我</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
           </div>
@@ -51,7 +102,7 @@
           </figure>
 
         </div>
-      </section>
+
         <!-- 首页上图 -->
 
         </div>
@@ -351,7 +402,23 @@
     <section class="footer">
         
     </section>
+<div id="footer-container"></div>
 </body>
+
+
+<script>
+  // 使用 fetch 加载 footer.html
+  fetch('/footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('加载页脚失败:', error);
+    });
+</script>
+
+
 <script src="../JS/jquery-3.6.0.js">
 </script>
 <script src="../JS/popper.min.js">
