@@ -10,7 +10,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>教师画像|五中附中2023级5班纪念网站</title>
+  <title>五中附中2023级5班纪念网站</title>
   <meta name="title" content="五中附中2023级5班纪念网站">
   <meta name="description" content="襄阳五中附中2023级5班班级纪念网站，在这里看到初中的回忆与美好">
   <meta name="keywords" content="班级纪念,襄阳,小五中,五中附中,2023级5班,同学录,LTSXx,小苔藓,凌铜x,aoeb101la,LTSXx引导页,lingtong,诸葛秋云">
@@ -40,22 +40,33 @@
 
 <body>
 
+  <!-- 
+    - PRELOADER
+  -->
+
   <div class="preloader" data-preloader>
     <div class="circle" data-circle></div>
   </div>
 
 
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
+      <a href="/" class="logo">
         <img src="../assets/images/sci2.jpg" width="145" height="27" alt="五中附中2023级5班纪念网站">
       </a>
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="/" class="logo">
+          <a href="#" class="logo">
             <img src="../assets/images/sci2.jpg" width="145" height="27" alt="Youdemi home">
           </a>
 
@@ -71,15 +82,15 @@
           </li>
 
           <li class="navbar-item">
-            <a href="../history.html" class="navbar-link title-sm" data-nav-link>时间轴</a>
+            <a href="#tjsj" class="navbar-link title-sm" data-nav-link>统计数据</a>
           </li>
 
           <li class="navbar-item">
-            <a href="../index.html#teacher" class="navbar-link title-sm" data-nav-link>师资风范</a>
+            <a href="#teacher" class="navbar-link title-sm" data-nav-link>师资风范</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#sss" class="navbar-link title-sm" data-nav-link>同学画像</a>
+            <a href="#student-j" class="navbar-link title-sm" data-nav-link>同学画像</a>
           </li>
 
         </ul>
@@ -109,22 +120,22 @@
       -->
 
       <section class="section hero has-bg-image" aria-labelledby="hero-label"
-        style="background-image: url('./assets/images/hero-bg.png')">
+        style="background-image: url('../assets/images/hero-bg.png')">
         <div class="container">
 
           <div class="hero-content">
 
             <h1 class="headline-lg" id="hero-label">
-              教师<span class="span">画像</span>
+              筑梦在 <span class="span">今朝</span> 明天有大成
             </h1>
 
             <p class="title-md has-before">
-              襄阳五中附中2023级5班班级纪念网站-教师画像
+              襄阳五中附中2023级5班班级纪念网站
 
             <div class="btn-group">
-              <a href="../index.html" class="btn btn-primary">返回主页</a>
+              <a href="#teacher" class="btn btn-primary">浏览教师</a>
 
-              <a href="#2" class="btn btn-secondary">查看教师</a>
+              <a href="../index.html" class="btn btn-secondary">返回主页</a>
             </div>
 
           </div>
@@ -135,10 +146,15 @@
 
         </div>
       </section>
-     
+
+
+
+      <!-- 
+        - #TEACHER
+      -->
 
       <section class="section course has-bg-image" aria-labelledby="course-label"
-        style="background-image: url('../assets/images/course-bg.png')" id="sss">
+        style="background-image: url('../assets/images/course-bg.png')" id="teacher">
         <div class="container">
 
           <p class="title-sm section-subtitle text-center">师资风范</p>
@@ -640,7 +656,7 @@
             这么优秀的教师团队，带出来的学生如何呢？，欢迎观赏
           </h2>
 
-          <a href="../student/index.html" class="btn btn-tertiary">学生画像</a>
+          <a href="./student/index.html" class="btn btn-tertiary">同学画像</a>
 
         </div>
       </section>
@@ -658,9 +674,14 @@
 
 <div id="footer-container"></div>
 
+  </footer>
+
+
+
+
 <script>
-  // 使用 fetch 加载 footer.html
-  fetch('../footer.html')
+// 使用 fetch 加载 footer.html
+  fetch('footer.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('footer-container').innerHTML = data;
@@ -669,20 +690,6 @@
       console.error('加载页脚失败:', error);
     });
 </script>
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2798957710621605"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-2798957710621605"
-     data-ad-slot="3554625176"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
   <!-- 
    - custom js link
   -->
@@ -693,7 +700,6 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
