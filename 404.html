@@ -154,8 +154,20 @@
 	
 			<hr style="margin: 40px auto; width: 60%;">
 	
-			<!-- 这里是页脚 -->
+			<div id="footer-container"></div>
 			</div>
 		</div>
 	</body>
 	</html>
+	<script>
+  // 使用 fetch 加载 footer.html
+  fetch('../footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('加载页脚失败:', error);
+    });
+</script>
+
