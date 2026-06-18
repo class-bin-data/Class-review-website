@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在校时间计算-五中附中2023级5班班级纪念网站</title>
+    <!-- 引用外部CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1 class="headline-lg"><span class="span">湖北初中生三年在校时间计算器</span></h1>
+        <p class="title-md subtitle">计算2023级初中生在七、八、九年级的在校天数及折合小时数</p>
+    </header>
+
+    <main class="section">
+        <div class="grid-list">
+            <!-- 计算过程 -->
+            <article class="card calculation-section">
+                <h2 class="title-lg">计算过程</h2>
+
+                <div class="step">
+                    <div class="step-title title-sm">1. 学年划分与周数</div>
+                    <div class="step-content">
+                        <p>• 七年级：2023年9月～2024年7月（40周）</p>
+                        <p>• 八年级：2024年9月～2025年7月（提前开学1周，共41周）</p>
+                        <p>• 九年级：2025年9月～2026年6月（提前开学1周，第二学期较短，共39周）</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-title title-sm">2. 每周在校天数</div>
+                    <div class="step-content">
+                        <p>• 七、八年级：每周休息2天 → 每周在校5天</p>
+                        <p>• 九年级：每周休息1天 → 每周在校6天</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-title title-sm">3. 总在校天数计算</div>
+                    <div class="step-content">
+                        <p>• 七年级：40周 × 5天 = 200天</p>
+                        <p>• 八年级：41周 × 5天 = 205天</p>
+                        <p>• 九年级：39周 × 6天 = 234天</p>
+                        <p style="margin-top: 10px;">总天数 = 200 + 205 + 234 = <span class="span">639天</span></p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-title title-sm">4. 每日在校时间</div>
+                    <div class="step-content">
+                        <p>• 七、八年级：6:40～20:30 → 13小时50分钟（13.833小时）</p>
+                        <p>• 九年级：6:30～21:00 → 14小时30分钟（14.5小时）</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-title title-sm">5. 总在校时间计算</div>
+                    <div class="step-content">
+                        <p>• 七年级：200天 × 13.833小时 = 2,766.6小时</p>
+                        <p>• 八年级：205天 × 13.833小时 = 2,835.8小时</p>
+                        <p>• 九年级：234天 × 14.5小时 = 3,393小时</p>
+                        <p style="margin-top: 10px;">总小时数 = 2,766.6 + 2,835.8 + 3,393 = <span class="span">8,995.4小时</span></p>
+                    </div>
+                </div>
+
+                <div class="note title-sm" style="color: var(--light-coral);">
+                    <strong>注：</strong> 计算基于标准校历，实际天数可能因节假日调整略有变化。九年级第二学期按18周计算（至中考结束）。
+                </div>
+            </article>
+
+            <!-- 计算结果 -->
+            <article class="card result-section">
+                <h2 class="title-lg">计算结果</h2>
+
+                <div class="result-box">
+                    <h3 class="title-md">总在校天数</h3>
+                    <div class="result-value headline-md"><span class="span">639</span> 天</div>
+                    <p class="title-sm">相当于约 1 年 9 个月（按365天/年计算）</p>
+                </div>
+
+                <div class="result-box">
+                    <h3 class="title-md">总在校时间</h3>
+                    <div class="result-value headline-md"><span class="span">8,995.4</span> 小时</div>
+                    <p class="title-sm">折合为：</p>
+
+                    <div class="time-breakdown">
+                        <div class="time-unit card">
+                            <div class="time-value headline-sm"><span class="span">374</span> 天</div>
+                            <div class="time-label title-sm">天</div>
+                        </div>
+                        <div class="time-unit card">
+                            <div class="time-value headline-sm"><span class="span">19</span> 小时</div>
+                            <div class="time-label title-sm">小时</div>
+                        </div>
+                        <div class="time-unit card">
+                            <div class="time-value headline-sm"><span class="span">30</span> 分钟</div>
+                            <div class="time-label title-sm">分钟</div>
+                        </div>
+                        <div class="time-unit card">
+                            <div class="time-value headline-sm"><span class="span">0</span> 秒</div>
+                            <div class="time-label title-sm">秒</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h3 class="title-md">各年级详细数据</h3>
+                    <p class="title-sm">七年级：200天 | 2,766.6小时</p>
+                    <p class="title-sm">八年级：205天 | 2,835.8小时</p>
+                    <p class="title-sm">九年级：234天 | 3,393小时</p>
+                </div>
+            </article>
+        </div>
+    </main>
+    
+
+    <footer class="footer-bottom">
+        <div id="footer-container"></div>
+    </footer>
+    
+<script>
+// 使用 fetch 加载 footer.html
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    })
+    .catch(error => {
+      console.error('加载页脚失败:', error);
+    });
+</script>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+                        </html>

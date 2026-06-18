@@ -6,7 +6,8 @@
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2F5ms.aoeb101la.top) ![GitHub Release](https://img.shields.io/github/v/release/class-bin-data/Class-review-website?color=%2321AF90&link=https%3A%2F%2Fgithub.com%2Fclass-bin-data%2FClass-review-website%2Freleases)
 
- 
+
+ ![Alt](https://repobeats.axiom.co/api/embed/57e6af1404294542f10edaf7d68ab23d2f5d0f65.svg "Repobeats analytics image")
 
 # 协作
 欢迎加入协作
@@ -14,3 +15,4 @@
 
 # 开源协议
 使用本班级模板须在页脚声明[本仓库地址](https://github.com/class-bin-data/Class-review-website)
+
